@@ -1,0 +1,16 @@
+-------------1--------------------
+//Составить алгоритм: если введенное число больше 7, то вывести “Привет”
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int i;
+        System.out.print("i = ");
+        i = sc.nextInt();
+        if (i > 7) {
+            System.out.println("Привет");
+        }
+    }
+}
+
+
